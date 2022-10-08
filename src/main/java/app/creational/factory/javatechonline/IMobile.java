@@ -1,4 +1,4 @@
-package app.creational.factory;
+package app.creational.factory.javatechonline;
 
 //Product
 public interface IMobile {

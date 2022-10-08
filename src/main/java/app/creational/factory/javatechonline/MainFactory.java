@@ -1,4 +1,4 @@
-package app.creational.factory;
+package app.creational.factory.javatechonline;
 
 public class MainFactory {
     public static void main(String[] args) {
