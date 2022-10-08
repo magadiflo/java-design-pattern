@@ -33,4 +33,13 @@ Veamos las siguientes tres definiciones:
 Este patrón de diseño fue desarrollado en un proyecto aparte. Ir al 
 [singleton-design-pattern en repositorio de GitHub](https://github.com/magadiflo/singleton-design-pattern)
 
-### 
+### Patrón de diseño Factory
+El patrón de diseño de fábrica se utiliza cuando tenemos una superclase con múltiples 
+subclases y, según la entrada, necesitamos devolver una de las subclases. 
+Este patrón elimina la responsabilidad de la creación de instancias de una clase de un 
+programa cliente a la clase de fábrica. Además, podemos aplicar el patrón Singleton también 
+en la clase Factory o hacer que el método factory sea estático.
+
+La superclase en patrón de fábrica puede ser una interfaz, o una clase abstracta, 
+o una clase Java normal.
+
