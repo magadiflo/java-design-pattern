@@ -7,16 +7,20 @@ import app.creational.abstractfactory.alexandershvets.fabrica.WinFactory;
 
 public class Main {
     public static void main(String[] args) {
+        Application app = configureApplication();
+        app.paint();
+    }
+
+    private static Application configureApplication() {
         GUIFactory factory;
+
         if (config().equals("Windows 10")) {
             factory = new WinFactory();
         } else {
             factory = new MacFactory();
         }
 
-        Application app = new Application(factory);
-        app.createUI();
-        app.paint();
+        return new Application(factory);
     }
 
     private static String config() {
