@@ -46,3 +46,5 @@ en la clase Factory o hacer que el método factory sea estático.
 La superclase en patrón de fábrica puede ser una interfaz, o una clase abstracta, 
 o una clase Java normal.
 
+### Patrón de diseño Abstract Factory
+Casi similar a Factory Pattern, excepto por el hecho de que es más como una fábrica de fábricas.
