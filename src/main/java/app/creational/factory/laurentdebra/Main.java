@@ -1,5 +1,9 @@
 package app.creational.factory.laurentdebra;
 
+import app.creational.factory.laurentdebra.creador.Cliente;
+import app.creational.factory.laurentdebra.creador.ClienteContado;
+import app.creational.factory.laurentdebra.creador.ClienteCredito;
+
 public class Main {
     public static void main(String[] args) {
         Cliente cliente = new ClienteContado();

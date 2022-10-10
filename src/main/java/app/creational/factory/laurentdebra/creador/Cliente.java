@@ -1,4 +1,6 @@
-package app.creational.factory.laurentdebra;
+package app.creational.factory.laurentdebra.creador;
+
+import app.creational.factory.laurentdebra.producto.Pedido;
 
 import java.util.ArrayList;
 import java.util.List;

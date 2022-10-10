@@ -1,4 +1,4 @@
-package app.creational.factory.laurentdebra;
+package app.creational.factory.laurentdebra.producto;
 
 public class PedidoCredito extends Pedido {
 
