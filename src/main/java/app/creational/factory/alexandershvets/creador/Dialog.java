@@ -8,9 +8,8 @@ public abstract class Dialog {
     //Método de fábrica (Factory Method)
     protected abstract Button createButton();
 
-    public void render() {
+    public void renderWindow() {
         Button button = this.createButton();
-        button.onClick();
         button.render();
     }
 

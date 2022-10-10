@@ -6,6 +6,7 @@ public class HTMLButton implements Button {
     @Override
     public void render() {
         System.out.println("<h1>Renderizando HTMLButton</h1>");
+        this.onClick();
     }
 
     @Override

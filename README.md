@@ -1,5 +1,8 @@
 # Patrones de diseño con java
-Proyecto tomado de [javatechonline](https://javatechonline.com/java-design-patterns-java)
+Proyecto tomado de 
+- [javatechonline](https://javatechonline.com/java-design-patterns-java)
+- [refactoring.guru](https://refactoring.guru/es/design-patterns/java)
+
 
 ## Tipos de patrones de diseño
 Los patrones de diseño más utilizados se clasifican en tres categorías principales
