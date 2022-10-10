@@ -48,3 +48,6 @@ o una clase Java normal.
 
 ### Patrón de diseño Abstract Factory
 Casi similar a Factory Pattern, excepto por el hecho de que es más como una fábrica de fábricas.
+
+El objetivo del patrón Abstract Factory es la creación de objetos agrupados en familias
+sin tener que conocer las clases concretas destinadas a la creación de estos objetos.
