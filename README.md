@@ -51,3 +51,10 @@ Casi similar a Factory Pattern, excepto por el hecho de que es más como una fá
 
 El objetivo del patrón Abstract Factory es la creación de objetos agrupados en familias
 sin tener que conocer las clases concretas destinadas a la creación de estos objetos.
+
+### Patrón de diseño Builder
+Separa la construcción de un objeto complejo de su representación, de forma que el mismo proceso
+de construcción pueda crear diferentes representaciones.
+
+El objetivo es abstraer la construcción de objetos complejos de su implementación, de modo que un cliente
+pueda crear objetos complejos sin tener que preocuparse de las diferencias en su implementación.
