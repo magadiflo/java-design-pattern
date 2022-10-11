@@ -2,6 +2,7 @@
 Proyecto tomado de 
 - [javatechonline](https://javatechonline.com/java-design-patterns-java)
 - [refactoring.guru](https://refactoring.guru/es/design-patterns/java)
+- [picodotdev](https://picodotdev.github.io/blog-bitix/2015/09/ejemplo-del-patron-de-diseno-builder/)
 
 
 ## Tipos de patrones de diseño
