@@ -58,3 +58,8 @@ de construcción pueda crear diferentes representaciones.
 
 El objetivo es abstraer la construcción de objetos complejos de su implementación, de modo que un cliente
 pueda crear objetos complejos sin tener que preocuparse de las diferencias en su implementación.
+
+Nos permite construir objetos complejos paso a paso. El patrón nos permite producir distintos tipos y 
+representaciones de un objeto empleando el mismo código de construcción.
+Al contrario que otros patrones creacionales, Builder no necesita  que los productos tengan una interfaz
+común. Esto hace posible crear distintos productos utilizando el mismo proceso de construcción.
