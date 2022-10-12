@@ -37,6 +37,11 @@ Veamos las siguientes tres definiciones:
 Este patrón de diseño fue desarrollado en un proyecto aparte. Ir al 
 [singleton-design-pattern en repositorio de GitHub](https://github.com/magadiflo/singleton-design-pattern)
 
+No obstante, en este proyecto se tomó el ejemplo de Alexander Shvets, quien la define así: 
+
+"Singleton es un patrón de diseño creacional que nos permite asegurarnos de que una clase tenga
+una única instancia, a la vez que proporciona un punto de acceso global a dicha instancia."
+
 ### Patrón de diseño Factory
 El patrón de diseño de fábrica se utiliza cuando tenemos una superclase con múltiples 
 subclases y, según la entrada, necesitamos devolver una de las subclases. 
