@@ -1,8 +1,9 @@
 # Patrones de diseño con java
-Proyecto tomado de 
+Ejemplos tomados de los siguientes enlaces
 - [javatechonline](https://javatechonline.com/java-design-patterns-java)
 - [refactoring.guru](https://refactoring.guru/es/design-patterns/java)
 - [picodotdev](https://picodotdev.github.io/blog-bitix/2015/09/ejemplo-del-patron-de-diseno-builder/)
+- [DigitalOcean](https://www.digitalocean.com/community/tutorials/java-singleton-design-pattern-best-practices-examples)
 
 
 ## Tipos de patrones de diseño
