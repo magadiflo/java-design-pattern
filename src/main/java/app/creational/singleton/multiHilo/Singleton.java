@@ -1,10 +1,13 @@
-package app.creational.singleton.hiloUnico;
+package app.creational.singleton.multiHilo;
 
 /**
- * Singletón Ingenuo (Hilo único)
- * ******************************
- * Es muy fácil implementar un Singleton descuidado. Tan solo necesitas esconder
- * el constructor e implementar un método de creación estático.
+ * Singleton Ingenuo (Multihilo)
+ * *****************************
+ * Este es el mismo código que se usó en clase Singleton del package /singleton/hiloUnico.
+ *
+ * La misma clase se comporta de forma incorrecta en un entorno de múltiples hilos (ver main).
+ * Los múltiples hilos pueden llamar al método de creación de forma simultánea y
+ * obtener varias instancias de la clase Singleton
  */
 public class Singleton {
 
