@@ -64,3 +64,13 @@ Nos permite construir objetos complejos paso a paso. El patrón nos permite prod
 representaciones de un objeto empleando el mismo código de construcción.
 Al contrario que otros patrones creacionales, Builder no necesita  que los productos tengan una interfaz
 común. Esto hace posible crear distintos productos utilizando el mismo proceso de construcción.
+
+### Patrón de diseño Prototype
+El patrón Prototype es uno de los patrones de diseño creacional, por lo que proporciona un mecanismo de 
+creación de objetos. Sin embargo, el patrón Prototype se utiliza cuando la creación de objetos es un 
+asunto costoso. Además, requiere mucho tiempo y recursos y si ya existe un objeto similar. 
+Por lo tanto, este patrón proporciona un mecanismo para copiar el objeto original a un nuevo objeto y 
+luego modificarlo de acuerdo con nuestras necesidades. Además, este patrón usa la clonación de 
+Java para copiar el objeto.
+
+
