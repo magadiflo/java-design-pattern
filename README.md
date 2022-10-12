@@ -73,4 +73,8 @@ Por lo tanto, este patrón proporciona un mecanismo para copiar el objeto origin
 luego modificarlo de acuerdo con nuestras necesidades. Además, este patrón usa la clonación de 
 Java para copiar el objeto.
 
+Prototype es un patrón de diseño creacional que nos permite copiar objetos existentes sin que el código
+dependa de sus clases.
+
+
 
