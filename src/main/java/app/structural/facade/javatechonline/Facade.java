@@ -1,5 +1,9 @@
 package app.structural.facade.javatechonline;
 
+import app.structural.facade.javatechonline.subsistema.Class1;
+import app.structural.facade.javatechonline.subsistema.Class2;
+import app.structural.facade.javatechonline.subsistema.Class3;
+
 /**
  * Sin embargo, los nombres de los métodos que se muestran a continuación indican claramente lo que hacen.
  * Además, estos métodos ocultan las interacciones de Class1, Class2 y Class3 del código de cliente.

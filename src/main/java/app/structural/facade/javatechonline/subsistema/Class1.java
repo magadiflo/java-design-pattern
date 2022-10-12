@@ -1,4 +1,4 @@
-package app.structural.facade.javatechonline;
+package app.structural.facade.javatechonline.subsistema;
 
 public class Class1 {
 
