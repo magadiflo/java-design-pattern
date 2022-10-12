@@ -82,5 +82,32 @@ Java para copiar el objeto.
 Prototype es un patrón de diseño creacional que nos permite copiar objetos existentes sin que el código
 dependa de sus clases.
 
+## Patrones de diseño estructurales
+Veamos las siguientes definiciones:
+
+- Los patrones estructurales proporcionan diferentes formas de crear una estructura de clases,
+  por ejemplo, utilizando la herencia y la composición para crear un objeto grande a partir de objetos pequeños.
+
+- Los patrones estructurales se ocupan de cómo se combinan las clases y los objetos para formar estructuras
+  más grandes.
+
+- Tratan la manera en que los objetos se conectan con otros objetos, para asegurar que los cambios del sistema 
+  no requieren cambiar esas conexiones.
+
+- Facilitan soluciones y estándares eficientes con respecto a las composiciones de clase y las estructuras de 
+  objetos. El concepto de herencia se utiliza para componer interfaces y definir formas de componer objetos 
+  para obtener nuevas funcionalidades.
+
+### Patrón de diseño Facade
+Proporciona una interfaz simplificada para una biblioteca, un marco o cualquier otro conjunto complejo de clases.
+
+En el patrón de fachada, las clases de fachada se utilizan para proporcionar una interfaz única para el conjunto 
+de clases. La fachada simplifica la interacción de un cliente con un sistema complejo al localizar las interacciones 
+en una sola interfaz. Como resultado, el cliente puede interactuar con un solo objeto en lugar de tener que 
+interactuar directamente de manera complicada con los objetos que componen el subsistema.
 
 
+
+### Patrón de diseño Proxy
+Se utiliza para crear objetos que pueden representar funciones de otras clases u objetos y la interfaz se 
+utiliza para acceder a estas funcionalidades
