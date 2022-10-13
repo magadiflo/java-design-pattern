@@ -124,3 +124,22 @@ El objeto proxy tiene la misma interfaz que un servicio, lo que lo hace intercam
 cuando se pasa a un cliente.
 
 Proxy es muy valioso cuando tienes que añadir comportamientos a una clase cuyo código no puedes cambiar.
+
+## Patrones de diseño de comportamiento
+Veamos las siguientes definiciones:
+
+- Los patrones de diseño de comportamiento ofrecen una solución para la mejor interacción entre objetos y 
+  cómo proporcionar acoplamiento perdido y flexibilidad para extenderse fácilmente.
+
+- Los patrones de comportamiento tratan con algoritmos y la asignación de responsabilidades entre objetos.
+
+- Los patrones de comportamiento describen interacciones entre objetos y se centran en cómo los objetos se 
+  comunican entre sí. Pueden reducir los diagramas de flujo complejos a simples interconexiones entre objetos 
+  de varias clases.
+
+### Patrón de diseño Strategy
+Es un patrón de diseño de comportamiento que te permite definir una familia de algoritmos, colocar cada uno 
+de ellos en una clase separada y hacer sus objetos intercambiables.
+
+Tiene como objetivo adaptar el comportamiento y los algoritmos de un objeto en función de una necesidad
+sin cambiar las interacciones de ese objeto con los clientes.
