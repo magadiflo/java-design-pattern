@@ -115,3 +115,12 @@ Proporciona un representante o sustituto de otro objeto para controlar el acceso
 Proxy es un patrón de diseño estructural que te permite proporcionar un sustituto o marcador de posición para
 otro objeto. Un proxy controla el acceso al objeto original, permitiéndote hacer algo antes o después de que
 la solicitud llegue al objeto original.
+
+Proxy es un patrón de diseño estructural que proporciona un objeto que actúa como sustituto de un objeto de 
+servicio real utilizado por un cliente. Un proxy recibe solicitudes del cliente, realiza parte del trabajo 
+(control de acceso, almacenamiento en caché, etc.) y después pasa la solicitud a un objeto de servicio.
+
+El objeto proxy tiene la misma interfaz que un servicio, lo que lo hace intercambiable con un objeto real 
+cuando se pasa a un cliente.
+
+Proxy es muy valioso cuando tienes que añadir comportamientos a una clase cuyo código no puedes cambiar.
