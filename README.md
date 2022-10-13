@@ -143,3 +143,9 @@ de ellos en una clase separada y hacer sus objetos intercambiables.
 
 Tiene como objetivo adaptar el comportamiento y los algoritmos de un objeto en función de una necesidad
 sin cambiar las interacciones de ese objeto con los clientes.
+
+El patrón de diseño de estrategia es útil cuando hay un conjunto de algoritmos relacionados y un objeto 
+cliente debe poder elegir dinámicamente un algoritmo de este conjunto que se adapte a sus necesidades actuales. 
+El patrón de estrategia sugiere mantener la implementación de cada uno de los algoritmos en una clase separada. 
+Cada uno de estos algoritmos encapsulados en una clase separada se conoce como Estrategia. 
+Un objeto que utiliza un objeto Strategy a menudo se denomina objeto de contexto.
