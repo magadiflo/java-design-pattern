@@ -106,8 +106,12 @@ de clases. La fachada simplifica la interacción de un cliente con un sistema co
 en una sola interfaz. Como resultado, el cliente puede interactuar con un solo objeto en lugar de tener que 
 interactuar directamente de manera complicada con los objetos que componen el subsistema.
 
-
-
 ### Patrón de diseño Proxy
 Se utiliza para crear objetos que pueden representar funciones de otras clases u objetos y la interfaz se 
 utiliza para acceder a estas funcionalidades
+
+Proporciona un representante o sustituto de otro objeto para controlar el acceso a éste.
+
+Proxy es un patrón de diseño estructural que te permite proporcionar un sustituto o marcador de posición para
+otro objeto. Un proxy controla el acceso al objeto original, permitiéndote hacer algo antes o después de que
+la solicitud llegue al objeto original.
