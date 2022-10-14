@@ -1,4 +1,4 @@
-package app.behavioral.javatechonline.strategy;
+package app.behavioral.strategy.javatechonline.strategy;
 
 /**
  * Pattern Strategy: Debe considerar el uso de este patrón cuando necesite seleccionar un algoritmo en tiempo de ejecución.

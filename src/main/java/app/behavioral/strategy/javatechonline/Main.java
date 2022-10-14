@@ -1,7 +1,7 @@
-package app.behavioral.javatechonline;
+package app.behavioral.strategy.javatechonline;
 
-import app.behavioral.javatechonline.strategy.BubbleSort;
-import app.behavioral.javatechonline.strategy.QuickSort;
+import app.behavioral.strategy.javatechonline.strategy.BubbleSort;
+import app.behavioral.strategy.javatechonline.strategy.QuickSort;
 
 public class Main {
     public static void main(String[] args) {

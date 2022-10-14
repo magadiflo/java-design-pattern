@@ -1,4 +1,4 @@
-package app.behavioral.javatechonline.strategy;
+package app.behavioral.strategy.javatechonline.strategy;
 
 public class QuickSort implements Strategy {
     @Override

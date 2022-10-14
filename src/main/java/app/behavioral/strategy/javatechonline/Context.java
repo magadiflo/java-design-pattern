@@ -1,6 +1,6 @@
-package app.behavioral.javatechonline;
+package app.behavioral.strategy.javatechonline;
 
-import app.behavioral.javatechonline.strategy.Strategy;
+import app.behavioral.strategy.javatechonline.strategy.Strategy;
 
 //Un objeto que utiliza un objeto Strategy a menudo se denomina objeto de contexto
 public class Context {
